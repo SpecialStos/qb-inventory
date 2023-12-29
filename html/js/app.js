@@ -388,6 +388,8 @@ function generateDescription(itemData) {
             return `<p><strong>Amount of cash: </strong><span>$${itemData.info.cash}</span></p>`;
         case "markedbills":
             return `<p><strong>Worth: </strong><span>$${itemData.info.worth}</span></p>`;
+        case "vehiclekeys":
+            return `<p><strong>Plate: </strong><span>${itemData.info.plate}</span></p>`;
         case "visa":
             return `<p><strong>Card Holder: </strong><span>${itemData.info.name}</span></p>`;
         case "mastercard":
